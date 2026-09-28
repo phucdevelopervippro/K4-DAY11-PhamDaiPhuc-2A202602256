@@ -1,1 +1,2 @@
 round,slice,frame,object_ref,cell,what,why,severity,owner,rule_id,evidence,action,rules_version,note
+calib,C0,adasind_019560.jpg,R4,na,MISSING,E0_reference_defect,P2,annotator,R08,"Phương tiện nằm sâu trong mái hiên/ki-ốt ngoài không gian lưu thông",keep_with_reason,v1.0,"Không gán xe dựng sâu trong nhà theo quy tắc không gian lưu thông"

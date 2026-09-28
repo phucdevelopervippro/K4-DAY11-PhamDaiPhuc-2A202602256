@@ -1,6 +1,5 @@
 # Sensor context
 
-- TODO — Rig: mô tả ngắn xe/camera gắn ở đâu theo hiểu biết của bạn từ ảnh (ADASIND không kèm tài liệu rig chi
-  tiết, ghi theo quan sát).
-- TODO — `ego_body` nhìn thấy ở đâu trong frame (góc capo, gương, tay lái...).
-- TODO — Vòng kính (lens circle) nằm ở vị trí nào trong ảnh, chiếm khoảng bao nhiêu phần khung hình.
+- **Rig:** Camera mắt cá (fisheye camera đơn) được lắp đặt cố định ở phía trước xe thử nghiệm (front-facing mount), quan sát toàn bộ khung cảnh giao thông phía trước. Bộ dữ liệu ADASIND không kèm tài liệu rig chi tiết, nên thông tin được ghi nhận hoàn toàn theo quan sát thực tế từ hình ảnh.
+- **`ego_body`:** Thân xe ego xuất hiện ở phần đáy / cạnh dưới của khung hình (thấy phần nắp capo / cản trước xe). Theo quy ước bài lab R07, polygon `ego_body` xuất hiện ở 46/48 frame ADASIND (ngoại trừ hai frame `adasind_006840.jpg` và `adasind_271039.jpg` không nhìn thấy thân xe).
+- **Vòng kính (Lens circle):** Vòng kính mắt cá dạng tròn nằm ở vị trí trung tâm khung hình (khung ảnh có độ phân giải dọc 1080 × 1920 pixels, tâm vòng kính `(cx, cy)` ở khoảng `(500–600, 900–1000)` px, bán kính `r ≈ 770–830` px). Vòng kính chiếm khoảng 75%–80% diện tích khung hình. Chiều rộng ảnh (1080px) hẹp hơn đường kính vòng kính (~1600px) nên bị cắt ở hai biên trái/phải; hai vùng phía trên và phía dưới ngoài vòng kính là dải viền đen được gắn nhãn ignore `lens_border`.

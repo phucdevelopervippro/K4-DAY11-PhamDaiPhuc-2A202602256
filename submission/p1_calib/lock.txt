@@ -1,0 +1,9 @@
+round: calib
+slice: C0
+sha256: bad61d31db9bbbc0af895680b978c0abf1b495e646e3c6b1c21644f6dc13da85
+code: BAD6-1D31
+locked_at: 2026-09-28T16:50:12+07:00
+shapes: box=5, polygon=2
+prefill_kept: 0
+prefill_edited: 0
+new: 5
