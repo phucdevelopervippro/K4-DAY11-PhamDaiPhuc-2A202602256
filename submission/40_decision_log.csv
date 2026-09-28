@@ -1,1 +1,5 @@
 id,date,question,decision,rationale,status
+DEC-01,2026-09-28,"Phân định xe tải nhẹ chở hàng (Tata Ace) với xe ô tô con (Car) ở góc méo hậu cảnh","Chờ làm rõ quy định từ AI Team và Guideline Lead","Hình dạng thân xe nhỏ như Car nhưng thiết kế thùng chở hàng dạng Truck gây tranh cãi giữa Annotator và QA",escalated
+DEC-02,2026-09-28,"Xử lý ranh giới polygon ignore_region (ego_body) vùng tay lái góc dưới bên trái","Vẽ polygon ego_body bao kín tay lái nhưng tuyệt đối không đè quá 50% lên box xe đang lưu thông L1","Đảm bảo tuân thủ R07/R09 để matcher không loại bỏ nhầm các box phương tiện hợp lệ",approved
+DEC-03,2026-09-28,"Xử lý cờ truncated cho xe buýt L3 Bus bị cắt ở rìa kính fisheye","Bật thuộc tính truncated=true cho box L3 Bus","Phần thân xe bị cắt khuyết bởi vành kính tròn fisheye ở mép ảnh theo quy ước R05/R06",approved
+DEC-04,2026-09-28,"Xác định ngưỡng chiều cao H>=40px cho xe máy ở xa","Chỉ gán box cho các phương tiện có chiều cao đo trên ảnh gốc H>=40px","Tuân thủ luật R01 để đảm bảo độ tin cậy nhãn và giảm nhiễu nhãn vật quá xa mờ",approved

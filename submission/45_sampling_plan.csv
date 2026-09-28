@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,35,"Nhiễu chói sáng phản xạ từ kính chắn gió","Giao thông phía trước mật độ vừa phải trên đường thẳng, tầm nhìn rõ ràng"
+front,hard,25,"Ngược sáng chói lọi, biến dạng góc fisheye và che khuất ở ngã tư","Mật độ xe máy/người đi bộ đông đúc ở giao lộ, nhiều tình huống cắt ngang và seam ghép nối"
+rear,normal,30,"Điểm mờ do bám bẩn ống kính camera sau","Xe nối đuôi ở khoảng cách an toàn, vận tốc ổn định trên đường cao tốc/đô thị"
+rear,hard,20,"Đèn pha chói lọi ban đêm từ xe phía sau, góc quay hẹp sát cản sau","Bị bám đuôi gần (tailgating), xe phương tiện bị cắt khuyết ở mép dưới camera sau"
+left,normal,25,"Méo hình dạng phương tiện sát bên hông xe ego","Song hành cùng xe ô tô/xe máy ở làn bên trái với tốc độ tương đương"
+left,hard,20,"Vùng khuất điểm mù (blind spot) và seam ghép nối với camera trước/sau","Xe vượt tạt đầu sát hông trái, biến dạng viền kính fisheye hông cực đại"
+right,normal,25,"Che khuất nhẹ bởi lề đường và chướng ngại vật cố định","Lưu thông bình thường sát lề đường bên phải, mật độ xe đỗ thấp"
+right,hard,20,"Cận cảnh người đi bộ/xe hai bánh tạt ngang từ lề đường và ngõ hẹp","Xe đỗ hàng dài che khuất phương tiện di chuyển, góc nhìn cực kỳ phức tạp ở khu vực lề phải"
